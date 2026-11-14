@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>コエ旅 韓国語 - プライバシーポリシー</title>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; color: #333; }
+        h1 { font-size: 24px; border-bottom: 2px solid #007AFF; padding-bottom: 8px; margin-bottom: 20px; }
+        h2 { font-size: 18px; margin-top: 30px; color: #007AFF; }
+        h3 { font-size: 15px; margin-top: 15px; font-weight: bold; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        a { color: #007AFF; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .back-link { margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <h1>『コエ旅 韓国語』プライバシーポリシー</h1>
+    <p><strong>制定日：2026年11月14日</strong></p>
+    <p>『コエ旅 韓国語』（以下「本アプリ」といいます）は、ユーザーのプライバシーを尊重し、個人情報および利用者に関する情報の適切な取扱いに努めます。</p>
 
+    <h2>1. 取得・利用する情報</h2>
+    <p>本アプリでは、以下の情報を機能提供およびサービス運営のために取り扱う場合があります。</p>
+    
+    <h3>（1）音声データ・音声認識結果</h3>
+    <p>発音チェック機能の利用時に、マイクを通じて音声を取得します。音声認識にはAppleの音声認識機能（Speech Framework / SFSpeechRecognizer）を利用します。対応環境においては、端末内のオンデバイス認識（requiresOnDeviceRecognition = true）を有効にし、Appleのサーバーへ音声データが送信されるのを回避して端末内で処理を完結させます。音声認識によって得られたテキストは一致率の判定に使用し、開発者が独自のサーバーに音声データを保存することはありません。</p>
+
+    <h3>（2）お気に入り・自由メモデータ</h3>
+    <p>お気に入りフレーズや自由メモ（ホテル住所等）は、端末内のローカルストレージ（UserDefaults）にのみ保存されます。開発者が運営するサーバーへ送信する機能はありません。</p>
+
+    <h3>（3）為替レートに関する情報</h3>
+    <p>為替レートの取得時には、外部の為替レート取得サービス（Frankfurter API）へ通信を行います。取得した為替レートは、オフライン環境での利用等を目的として端末内に一時保存されます。</p>
+
+    <h3>（4）広告配信に関する情報</h3>
+    <p>本アプリでは、Google LLCが提供するGoogle AdMobを利用して広告を配信します。広告配信に伴い、広告識別子（IDFA等）、IPアドレス、端末およびOSに関する情報等がGoogleおよび広告関連事業者によって取得・処理される場合があります。詳細はGoogleのプライバシーポリシーをご確認ください。<br>
+    <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+    <h2>2. 情報の利用目的</h2>
+    <p>取得・処理する情報は、以下の目的で利用されます。</p>
+    <ul>
+        <li>音声フレーズおよび発音チェック機能の提供</li>
+        <li>お気に入り、自由メモ等の機能提供</li>
+        <li>為替レートの取得および換算機能の提供</li>
+        <li>広告の配信、表示および効果測定</li>
+        <li>アプリの品質改善、障害対応および不正利用の防止</li>
+        <li>ユーザーからのお問い合わせへの対応</li>
+        <li>法令等への対応</li>
+    </ul>
+
+    <h2>3. デバイスの権限について</h2>
+    <p>本アプリでは、以下の権限を使用する場合があります。</p>
+    <ul>
+        <li><strong>（1）マイク：</strong>発音チェック機能における音声取得</li>
+        <li><strong>（2）音声認識：</strong>音声をテキスト化し発音チェックを実施</li>
+        <li><strong>（3）トラッキングの許可（ATT）：</strong>広告の最適化や効果測定等に関連し、AppleのApp Tracking Transparency（ATT）を通じてユーザーの許可を求めます。許可しない場合でも本アプリの基本機能は利用できます。</li>
+    </ul>
+
+    <h2>4. 第三者サービスへの情報提供</h2>
+    <p>本アプリでは、以下の第三者サービスを利用します。</p>
+    <ul>
+        <li><strong>（1）Google AdMob（Google LLC）</strong><br>
+        プライバシーポリシー：<a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+        <li><strong>（2）Apple Speech Framework（Apple Inc.）</strong><br>
+        プライバシーポリシー：<a href="https://www.apple.com/legal/privacy/" target="_blank">https://www.apple.com/legal/privacy/</a></li>
+        <li><strong>（3）為替レート取得サービス（Frankfurter API）</strong><br>
+        公式サイト・仕様：<a href="https://frankfurter.dev/" target="_blank">https://frankfurter.dev/</a><br>
+        （オープンソースAPIであり、ユーザーの個人情報やトラッキングデータを収集・保存しない仕様となっています）</li>
+    </ul>
+
+    <h2>5. 情報の保存・管理・削除</h2>
+    <p>お気に入り、自由メモおよび取得済み為替レート等のデータは、必要な範囲で端末内に保存されます。端末内に保存されたデータは、本アプリ内の削除機能やアプリのアンインストールにより消去できます。</p>
+
+    <h2>6. 情報の安全管理</h2>
+    <p>開発者は、本アプリの運営において取り扱う情報について、不正アクセス、漏えい、改ざん等を防止するため、合理的な安全管理に努めます。</p>
+
+    <h2>7. 未成年者の利用について</h2>
+    <p>本アプリは4歳以上のすべてのユーザー（お子様を含みます）にご利用いただけます。開発者は、4歳以上のお子様を含め、ユーザーから意図的に個人情報を収集することはありません。未成年者が利用する場合は、必要に応じて保護者の同意を得たうえでご利用ください。</p>
+
+    <h2>8. プライバシーポリシーの変更</h2>
+    <p>法令の改正、本アプリの機能変更、利用する第三者サービスの変更等に応じて、本ポリシーを改定することがあります。</p>
+
+    <div class="back-link">
+        <p><a href="index.html">← サポートページに戻る</a></p>
+    </div>
+</body>
+</html>
